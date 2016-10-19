@@ -1,11 +1,4 @@
   Rails.application.routes.draw do
-    get 'tweets' => 'tweets#index'
-<<<<<<< HEAD
-<<<<<<< HEAD
+    get   'tweets'      =>  'tweets#index'     #ツイート一覧画面
+    get   'tweets/new'  =>  'tweets#new'       #ツイート投稿画面
   end
-=======
-  end
->>>>>>> master
-=======
-  end
->>>>>>> 9570e49676cf6a8a21aa078055a228e9b67926aa
